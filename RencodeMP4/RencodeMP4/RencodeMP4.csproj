@@ -87,6 +87,7 @@
     <Content Include="bin\Debug\RencodeMP4.exe" />
     <Content Include="bin\Debug\RencodeMP4.pdb" />
     <Content Include="bin\Debug\RencodeMP4.vshost.exe" />
+    <Content Include="bin\Debug\test\ffmpeg.exe" />
     <Content Include="bin\Debug\Tools\ffmpeg.exe" />
     <Content Include="bin\Debug\Tools\qt-faststart.exe" />
     <Content Include="log.txt" />
