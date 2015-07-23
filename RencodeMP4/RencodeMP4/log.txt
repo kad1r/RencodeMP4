@@ -1,0 +1,16 @@
+ Start time: 23.7.2015 14:09:16
+
+ Total video count: 1
+
+ ---------------------
+ Input: C:\Users\Kadir Avcı\Desktop\videos - Copy\HP-Comware-A-Serisi-LACP-BAGG-GokhanT___(570923857)-encoded.mp4
+ Output: C:\Users\Kadir Avcı\Desktop\videos - Copy\HP-Comware-A-Serisi-LACP-BAGG-GokhanT___(570923857)-encoded-encoded.mp4
+ Cmd: d:\google drive\development\windows development\rencodemp4\rencodemp4\rencodemp4\bin\debug\tools\ffmpeg.exe -i "C:\Users\Kadir Avcı\Desktop\videos - Copy\HP-Comware-A-Serisi-LACP-BAGG-GokhanT___(570923857)-encoded.mp4" -c:v libx264 -crf 20 -preset medium -c:a -strict experimental -b:a 192k -ac 2 -movflags faststart "C:\Users\Kadir Avcı\Desktop\videos - Copy\HP-Comware-A-Serisi-LACP-BAGG-GokhanT___(570923857)-encoded-encoded.mp4"
+ Error occured: The system cannot find the file specified
+
+ ********************************** 
+ End time: 23.7.2015 14:09:16
+ Total time: 0 hour - 0 min
+
+
+
