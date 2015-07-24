@@ -5,7 +5,7 @@ This small windows program is filtering mp4 files from that you showed folder an
 
 FFMPEG mp4 re-encoding command:
 
-ffmpeg.exe -i input -c:v libx264 -crf 20 -preset medium -c:a aac -strict experimental -b:a 192k -ac 2 -movflags faststart output
+ffmpeg.exe -i input -c:v libx264 -crf 20 -preset main -c:a aac -strict experimental -b:a 192k -ac 2 -movflags faststart output
 
 input represent original file. (input.mp4)
 
