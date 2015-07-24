@@ -79,7 +79,7 @@ namespace RencodeMP4
 
                     log += " Input: " + input + Environment.NewLine;
                     log += " Output: " + output + Environment.NewLine;
-                    log += " Cmd: " + ffmpegPath + " -i \"" + input + "\"" + " -c:v libx264 -crf 20 -preset medium -c:a -strict experimental -b:a 192k -ac 2 -movflags faststart " + "\"" + output + "\"" + Environment.NewLine;
+                    log += " Cmd: " + ffmpegPath + " -i \"" + input + "\"" + " -c:v libx264 -crf 20 -preset medium -c:a aac -strict experimental -b:a 192k -ac 2 -movflags faststart " + "\"" + output + "\"" + Environment.NewLine;
 
                     try
                     {
